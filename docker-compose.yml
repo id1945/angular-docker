@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  web-angular:
+    image: id1945/angular-demo:latest
+    ports:
+      - "8080:80"
