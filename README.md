@@ -49,6 +49,9 @@ services:
 ```bash
 docker-compose up -d
 ```
+```url
+Test: http://localhost:8080/
+```
 #### What?
 -d (Run in background)
 Refer: https://giai-ma.blogspot.com/2020/08/tim-hieu-docker-images-containers.html 
