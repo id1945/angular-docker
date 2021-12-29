@@ -30,6 +30,7 @@ Test: http://localhost:8080/
 # [2] Dockerfile on docker-hub
 ### [2.1] Push Dockerfile to docker-hub
 ```bash
+docker login
 docker tag angular-demo:latest id1945/angular-demo
 docker push id1945/angular-demo
 ```
