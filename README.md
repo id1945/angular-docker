@@ -49,6 +49,21 @@ services:
 ```bash
 docker-compose up -d
 ```
+# [3] Run docker-compose with ssh file
+#### deploy.ssh
+```yml
+docker-compose stop
+docker-compose rm -f
+docker-compose pull
+docker-compose up -d
+```
+#### Run deploy.ssh
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
 #### What?
 -d (Run in background)
 Refer: https://giai-ma.blogspot.com/2020/08/tim-hieu-docker-images-containers.html 
+
+#### Author: DaiDH Tel: 0845882882
