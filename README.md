@@ -50,6 +50,9 @@ services:
 ```bash
 docker-compose up -d
 ```
+```utl
+Test: http://localhost:8080/
+```
 # [3] Run docker-compose with ssh file
 #### deploy.ssh
 ```yml
@@ -62,6 +65,9 @@ docker-compose up -d
 ```bash
 chmod +x deploy.sh
 ./deploy.sh
+```
+```utl
+Test: http://localhost:8080/
 ```
 #### What?
 -d (Run in background)
